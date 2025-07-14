@@ -9,7 +9,7 @@ persona-builder/
 ├── main_openai.py        # Main script
 ├── outputs/             # Generated persona text files
 ├── requirements.txt     # Python dependencies
-├── .env.example         # Environment variable template
+├── .env        # Environment variable template
 └── .gitignore           # Files and folders to ignore
 ```
 
@@ -52,7 +52,7 @@ Fetch a Reddit user's recent posts and comments, build a detailed user persona v
 4. Prepare environment variables:
 
    ```bash
-   cp .env.example .env
+   cp .env
    ```
 
    Edit `.env` and fill in your values:
@@ -84,7 +84,7 @@ MIT © Your Name
 
 ````
 
-## .env.example
+## .env
 ```dotenv
 REDDIT_CLIENT_ID=
 REDDIT_CLIENT_SECRET=
