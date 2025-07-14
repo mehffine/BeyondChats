@@ -6,10 +6,11 @@ An automated tool that fetches a Reddit user's recent posts and comments, genera
 
 ```
 persona-builder/
-├── main_openai.py        # Main script
+├── main_openai.py        # Main script 2
+├── main.py        # Main script
 ├── outputs/             # Generated persona text files
 ├── requirements.txt     # Python dependencies
-├── .env        # Environment variable template
+├── .env         # Environment variable template
 └── .gitignore           # Files and folders to ignore
 ```
 
@@ -23,6 +24,8 @@ Fetch a Reddit user's recent posts and comments, build a detailed user persona v
 ## Features
 - Scrapes up to 100 posts and 100 comments using PRAW
 - Generates a structured persona with evidence citations via OpenAI ChatCompletion
+- **main.py**: Uses only LLM for persona generation (no fallback)
+- **main_openai.py**: Uses TextBlob-based fallback when the LLM call fails or quota is exceeded
 - Graceful fallback to offline analysis with TextBlob (no extra downloads required)
 
 ## Prerequisites
@@ -52,7 +55,7 @@ Fetch a Reddit user's recent posts and comments, build a detailed user persona v
 4. Prepare environment variables:
 
    ```bash
-   cp .env
+   cp .env.example .env
    ```
 
    Edit `.env` and fill in your values:
@@ -84,7 +87,7 @@ MIT © Your Name
 
 ````
 
-## .env
+## .env.example
 ```dotenv
 REDDIT_CLIENT_ID=
 REDDIT_CLIENT_SECRET=
