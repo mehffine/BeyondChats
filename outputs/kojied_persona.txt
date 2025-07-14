@@ -1,0 +1,13 @@
+**Summary:**
+User frequently discusses have, s, if, can, so. Overall sentiment is positive.
+
+**Key Interests/Topics:**
+- have (mentioned 49 times)
+- s (mentioned 47 times)
+- if (mentioned 45 times)
+- can (mentioned 35 times)
+- so (mentioned 34 times)
+
+**Communication Style & Tone:**
+- Sentiment polarity: 0.12, subjectivity: 0.46
+- Average sentence length: 20.1 words

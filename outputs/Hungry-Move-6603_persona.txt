@@ -1,0 +1,13 @@
+**Summary:**
+User frequently discusses cops, lko, delhi, have, my. Overall sentiment is positive.
+
+**Key Interests/Topics:**
+- cops (mentioned 5 times)
+- lko (mentioned 3 times)
+- delhi (mentioned 3 times)
+- have (mentioned 3 times)
+- my (mentioned 3 times)
+
+**Communication Style & Tone:**
+- Sentiment polarity: 0.04, subjectivity: 0.44
+- Average sentence length: 11.2 words
